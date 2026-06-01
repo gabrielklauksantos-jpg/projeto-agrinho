@@ -1,102 +1,200 @@
-# Leadsult Consulting
+# Leadsult Consulting – Landing Page
 
-Site institucional de consultoria empresarial, focado em gerar contatos qualificados e apresentar serviços, diferenciais e equipe.
+Landing page institucional para a Leadsult Consulting, focada em geração de leads B2B e apresentação de serviços de consultoria.
 
-## Seções da página inicial
+## Visão geral
 
-### 1. Cabeçalho (Header)
-- Logo da Leadsult Consulting.
-- Menu com âncoras:
-  - Sobre
-  - Serviços
-  - Equipe
-  - Contato
+- **Tipo:** Single Page Application (estrutura one‑page com âncoras internas)
+- **Plataforma:** Wix (Harmony Editor)
+- **Público-alvo:** Decisores de negócios (C‑level, gestores, founders)
+- **Objetivo principal:** Conversão em leads (captura de contato/newsletter)
+- **Objetivos secundários:** Autoridade de marca, prova social, clareza de oferta
 
-### 2. Bem-vindo (Hero)
-- Título: “Transforme seu negócio hoje”.
-- Subtítulo: “Serviços de consultoria abrangentes”.
-- Botão de CTA: “Contato” (rola até a seção de contato/newsletter).
+## Arquitetura de informação (Home)
 
-### 3. Sobre
-- Título: “Sobre”.
-- Texto apresentando a Leadsult Consulting e sua proposta de valor.
-- Imagem ilustrativa.
-- Parágrafo explicando a experiência da equipe e foco em resultados.
+A página inicial é composta pelas seguintes seções, em ordem vertical:
 
-### 4. Serviços
-- Título: “Nossos serviços”.
-- Texto introdutório.
-- Três blocos de serviço:
-  - Consultoria Estratégica
-  - Consultoria Financeira
-  - Excelência Operacional  
-  Cada bloco com ícone/arte vetorial e breve descrição.
+1. **Header (Cabeçalho)**
+   - Elementos:
+     - Logo clicável (volta ao topo)
+     - Menu principal com navegação por âncoras:
+       - `#about` – Sobre
+       - `#services` – Serviços
+       - `#team` – Equipe
+       - `#contact` – Contato
+   - Função:
+     - Navegação rápida entre blocos de conteúdo
+     - Manter identidade visual consistente em todo o site
 
-### 5. Diferencial
-- Título: “Diferencial”.
-- Texto explicando o que torna a consultoria única.
-- Quatro pilares com ícones e descrições:
-  - Estratégia
-  - Análise
-  - Desenvolvimento
-  - Implementação
+2. **Hero / Bem-vindo**
+   - Conteúdo:
+     - Headline: `Transforme seu negócio hoje`
+     - Subheadline: `Serviços de consultoria abrangentes`
+     - CTA primário: botão “Contato” (scroll para seção de contato/newsletter)
+   - Função:
+     - Mensagem de valor imediata (proposta de valor em 1–2 frases)
+     - Direcionar o usuário para o ponto de conversão principal
 
-### 6. Nossos números
-- Título: “Nossos números”.
-- Texto sobre transparência e resultados.
-- Métricas em destaque:
-  - 500 clientes atendidos
-  - 80+ projetos concluídos
-  - 12 anos de experiência
-  - 95% taxa de satisfação
+3. **Sobre**
+   - Conteúdo:
+     - Título: `Sobre`
+     - Parágrafos descrevendo:
+       - Quem é a Leadsult Consulting
+       - Foco em resultados e experiência da equipe
+     - Imagem ilustrativa
+   - Função:
+     - Contextualizar a empresa
+     - Reforçar credibilidade e posicionamento
 
-### 7. Setores
-- Título: “Setores”.
-- Texto introdutório sobre atuação em diferentes segmentos.
-- Blocos de setor com ícone e descrição:
-  - Energia
-  - TI
-  - Serviços Públicos
+4. **Serviços**
+   - Conteúdo:
+     - Título: `Nossos serviços`
+     - Texto introdutório
+     - Três blocos de serviço:
+       1. Consultoria Estratégica
+       2. Consultoria Financeira
+       3. Excelência Operacional
+     - Cada bloco contém:
+       - Ícone/arte vetorial
+       - Título do serviço
+       - Descrição curta (benefícios e foco)
+   - Função:
+     - Deixar claro o escopo de atuação
+     - Facilitar o entendimento rápido do portfólio
 
-### 8. Equipe
-- Título: “Nossa equipe”.
-- Texto introdutório.
-- Cards de membros:
-  - João Mello, Consultor de Negócios
-  - Juliana Souza, Analista Financeira
-  - Alex Wong, Especialista em Marketing  
-  Cada card com foto/ícone e mini bio.
+5. **Diferencial**
+   - Conteúdo:
+     - Título: `Diferencial`
+     - Texto introdutório explicando o que torna a consultoria única
+     - Quatro pilares:
+       - Estratégia – Estratégias de negócios personalizadas
+       - Análise – Insights orientados por dados
+       - Desenvolvimento – Planos de crescimento empresarial
+       - Implementação – Excelência na execução
+     - Cada pilar com:
+       - Ícone/arte vetorial
+       - Título
+       - Descrição curta
+   - Função:
+     - Destacar vantagens competitivas
+     - Apoiar a decisão do lead com argumentos racionais
 
-### 9. Clientes
-- Título: “Nossos clientes”.
-- Texto introdutório.
-- Grade de logotipos/ícones de clientes.
+6. **Nossos números**
+   - Conteúdo:
+     - Título: `Nossos números`
+     - Texto introdutório sobre transparência e resultados
+     - Métricas em destaque:
+       - `500` – Clientes atendidos
+       - `80+` – Projetos concluídos
+       - `12` – Anos de experiência
+       - `95%` – Taxa de satisfação
+   - Função:
+     - Prova social quantitativa
+     - Reduzir objeções com dados objetivos
 
-### 10. Depoimentos
-- Título: “Depoimentos”.
-- Cards com foto/ícone, citação e nome:
-  - David Lee
-  - Jamile Garcia
-  - Maria Gomes
-  - Sofia Perez
+7. **Setores**
+   - Conteúdo:
+     - Título: `Setores`
+     - Texto introdutório sobre amplitude de atuação
+     - Blocos de setor:
+       - Energia
+       - TI
+       - Serviços Públicos
+     - Cada bloco com:
+       - Ícone/arte vetorial
+       - Título do setor
+       - Descrição do tipo de projeto/benefício
+   - Função:
+     - Mostrar especialização por indústria
+     - Ajudar o visitante a se identificar com casos de uso
 
-### 11. Contato / Newsletter
-- Título: “Nossa newsletter”.
-- Formulário de captura (nome/email, etc.) para receber novidades e manter relacionamento.
+8. **Equipe**
+   - Conteúdo:
+     - Título: `Nossa equipe`
+     - Texto introdutório
+     - Cards de membros:
+       - João Mello – Consultor de Negócios
+       - Juliana Souza – Analista Financeira
+       - Alex Wong – Especialista em Marketing
+     - Cada card com:
+       - Foto/ícone
+       - Nome + cargo
+       - Mini bio (expertise e foco)
+   - Função:
+     - Humanizar a marca
+     - Reforçar autoridade técnica por meio dos perfis
 
-### 12. Rodapé
-- Logo.
-- Botão “Fale conosco” levando ao contato.
-- Telefone e e-mail.
-- Links:
-  - Política de Privacidade
-  - Declaração de Acessibilidade
-- Endereço físico.
-- Créditos do site.
+9. **Clientes**
+   - Conteúdo:
+     - Título: `Nossos clientes`
+     - Texto introdutório
+     - Grade de logotipos/ícones representando clientes atendidos
+   - Função:
+     - Prova social qualitativa (marcas associadas)
+     - Reforço de confiança
 
-## Objetivo do site
+10. **Depoimentos**
+    - Conteúdo:
+      - Título: `Depoimentos`
+      - Cards com:
+        - Foto/ícone
+        - Citação
+        - Nome do cliente:
+          - David Lee
+          - Jamile Garcia
+          - Maria Gomes
+          - Sofia Perez
+    - Função:
+      - Validação social por meio de relatos reais
+      - Apoiar a decisão de contato/fechamento
 
-- Apresentar a Leadsult Consulting de forma clara e profissional.
-- Destacar serviços, diferenciais, setores atendidos e equipe.
-- Construir prova social com números, clientes e depoimentos.
-- Gerar leads por meio do formulário de newsletter/contato.
+11. **Contato / Newsletter**
+    - Conteúdo:
+      - Título: `Nossa newsletter`
+      - Formulário (Wix Forms) com campos de captura (ex.: nome, e‑mail)
+    - Função:
+      - Ponto principal de conversão (lead gen)
+      - Construção de base para relacionamento e nutrição
+
+12. **Footer (Rodapé)**
+    - Conteúdo:
+      - Logo
+      - Botão “Fale conosco” (scroll para contato)
+      - Telefone
+      - E‑mail
+      - Endereço físico
+      - Links:
+        - Política de Privacidade
+        - Declaração de Acessibilidade
+      - Créditos do site
+    - Função:
+      - Informações institucionais e legais
+      - Acesso rápido a contato e políticas
+
+## Fluxo de usuário (alto nível)
+
+1. Usuário chega pela home (tráfego orgânico, pago ou direto).
+2. Em até 3–5 segundos, entende a proposta de valor no Hero.
+3. Navega por:
+   - Serviços → Diferenciais → Números → Setores → Equipe
+4. Valida confiança em:
+   - Clientes → Depoimentos
+5. Converte em:
+   - Formulário de newsletter/contato no bloco “Contato”.
+
+## Manutenção de conteúdo
+
+- **Textos institucionais:** atualizar se houver mudança em serviços, setores ou equipe.
+- **Métricas (“Nossos números”):** revisar periodicamente para manter dados atualizados.
+- **Clientes e depoimentos:** adicionar novos conforme novos cases relevantes forem surgindo.
+- **Formulário:** garantir que o destino dos leads (e‑mail/CRM) esteja configurado corretamente no Wix.
+
+## Roadmap sugerido (futuro)
+
+- Adicionar página(s) dedicada(s) para:
+  - Casos de sucesso / estudos de caso
+  - Conteúdo educativo (blog ou insights)
+- Testes A/B em:
+  - Headline do Hero
+  - Texto do CTA
+  - Ordem das seções de prova social (Números, Clientes, Depoimentos)
