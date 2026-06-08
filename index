@@ -1,0 +1,16 @@
+<section id="sobre" style="padding:60px 24px; display:flex; flex-wrap:wrap; gap:32px; align-items:flex-start; background:#f7f7f7;">
+  <div style="flex:1; min-width:260px;">
+    <h2 style="font-size:28px; margin-bottom:16px;">Sobre M. Lopez</h2>
+    <p style="margin-bottom:12px;">
+      <!-- Cole aqui o primeiro parágrafo da seção Sobre do seu site Wix -->
+      Com um profundo conhecimento do mercado imobiliário, M. Lopez ajuda clientes a tomar decisões seguras e estratégicas...
+    </p>
+    <p style="margin-bottom:12px;">
+      <!-- Cole aqui o segundo parágrafo (histórico, experiência, etc.) -->
+      M. Lopez possui um histórico comprovado de negociações bem-sucedidas, sempre focado em resultados e transparência...
+    </p>
+  </div>
+  <div style="flex:1; min-width:260px; text-align:center;">
+    <!-- Troque a URL abaixo pela imagem da seção Sobre -->
+    <img src="URL_DA_SUA_IMAGEM_SOBRE" alt="Foto de M. Lopez" style="max-width:100%; height:auto; border-radius:8px;">
+  </div>
